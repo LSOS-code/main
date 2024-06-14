@@ -1,0 +1,184 @@
+geneset	importance	type
+bone resorption	0.347817752	bone
+bone remodeling	0.305443576	bone
+Osteoclast differentiation	18.710464309	bone
+chondroitin sulfate proteoglycan metabolic process	0.132424226	bone
+Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate	0.189737744	bone
+cardiac epithelial to mesenchymal transition	2.428516839	cardiovascular
+VEGF signaling pathway	25.998944246	cardiovascular
+positive regulation of reactive oxygen species metabolic process	24.225462872	catabolic
+negative regulation of phosphorus metabolic process	1.724191812	catabolic
+polysaccharide catabolic process	0.268613608	catabolic
+amyloid precursor protein catabolic process	0.544514062	catabolic
+polysaccharide metabolic process	0.127238025	catabolic
+glucose 6-phosphate metabolic process	0.604505613	catabolic
+aminoglycan metabolic process	0.189737744	catabolic
+chondroitin sulfate proteoglycan metabolic process	0.381188415	catabolic
+amine metabolic process	0.28993981	catabolic
+cellular amine metabolic process	0.281779544	catabolic
+small molecule catabolic process	0.186435074	catabolic
+negative regulation of cellular catabolic process	0.539964633	catabolic
+receptor metabolic process	0.400669027	catabolic
+cellular metabolic compound salvage	0.162760623	catabolic
+myeloid cell differentiation	3.17974047	cell
+actin filament organization	2.374983974	cell
+regulation of actin filament-based process	2.89856286	cell
+regulation of actin cytoskeleton organization	3.668329733	cell
+extrinsic apoptotic signaling pathway	5.053216629	cell
+regulation of leukocyte apoptotic process	8.969731454	cell
+leukocyte apoptotic process	6.874372012	cell
+actin filament severing	0.658414105	cell
+neuron apoptotic process	4.954008005	cell
+hepatocyte apoptotic process	4.888407126	cell
+response to tumor necrosis factor	5.01071332	cell
+endothelial cell differentiation	3.396981468	cell
+apoptotic mitochondrial changes	4.003854066	cell
+regulation of microtubule cytoskeleton organization	1.610886378	cell
+myeloid cell apoptotic process	9.807115615	cell
+positive regulation of neuron apoptotic process	17.358886458	cell
+regulation of myeloid cell apoptotic process	13.674487029	cell
+negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	5.741333535	cell
+negative regulation of cytoskeleton organization	1.18950849	cell
+inflammatory cell apoptotic process	13.412318507	cell
+regulation of myoblast differentiation	7.377503043	cell
+apoptotic process involved in morphogenesis	19.078328268	cell
+Regulation of actin cytoskeleton	12.157887667	cell
+Apoptosis	11.589990957	cell
+Necroptosis	11.18835995	cell
+Apoptosis - multiple species	9.278338883	cell
+coagulation	9.836739107	Coagulation
+blood coagulation	10.354054706	Coagulation
+regulation of coagulation	1.11766571	Coagulation
+regulation of blood coagulation	0.280119851	Coagulation
+Complement and coagulation cascades	4.452970514	Coagulation
+Platelet activation	24.837325631	Coagulation
+myeloid leukocyte activation	4.183810535	Immune
+regulation of immune effector process	3.955802295	Immune
+positive regulation of cytokine production	2.925556406	Immune
+myeloid cell activation involved in immune response	4.910169601	Immune
+phagocytosis	4.662617059	Immune
+regulation of innate immune response	3.259597789	Immune
+leukocyte degranulation	5.137982571	Immune
+leukocyte cell-cell adhesion	3.843539621	Immune
+interleukin-6 production	4.650573329	Immune
+leukocyte mediated immunity	5.166114858	Immune
+leukocyte migration	4.713188607	Immune
+cytokine-mediated signaling pathway	3.931354884	Immune
+regulation of leukocyte degranulation	6.870599483	Immune
+negative regulation of immune response	2.155985654	Immune
+regulation of T cell activation	3.768710483	Immune
+cytokine production involved in immune response	5.199330392	Immune
+regulation of phagocytosis	2.490608427	Immune
+leukocyte chemotaxis	2.571212259	Immune
+regulation of cytokine production involved in immune response	5.193113659	Immune
+mast cell degranulation	4.364142304	Immune
+leukocyte proliferation	5.365463273	Immune
+regulation of leukocyte proliferation	6.873428771	Immune
+regulation of leukocyte migration	3.74533724	Immune
+leukocyte mediated cytotoxicity	5.736392628	Immune
+positive regulation of T cell activation	5.234300064	Immune
+regulation of lymphocyte proliferation	6.220341218	Immune
+T cell proliferation	3.83747438	Immune
+regulation of leukocyte apoptotic process	5.626268735	Immune
+negative regulation of T cell activation	1.019744127	Immune
+regulation of mast cell activation involved in immune response	6.976587249	Immune
+leukocyte apoptotic process	4.764166333	Immune
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains	4.228660329	Immune
+neutrophil degranulation	10.143068064	Immune
+natural killer cell mediated immunity	1.099337584	Immune
+alpha-beta T cell activation	3.673128733	Immune
+regulation of mast cell degranulation	6.942608753	Immune
+antigen processing and presentation	1.509391002	Immune
+substrate adhesion-dependent cell spreading	2.241839699	Immune
+regulation of leukocyte mediated cytotoxicity	7.384557619	Immune
+immune response-regulating cell surface receptor signaling pathway involved in phagocytosis	17.074432256	Immune
+Fc-gamma receptor signaling pathway involved in phagocytosis	17.074432256	Immune
+regulation of T cell mediated immunity	2.677656952	Immune
+inflammatory response to antigenic stimulus	11.211281612	Immune
+T cell mediated immunity	3.596757501	Immune
+leukocyte activation involved in inflammatory response	11.571561111	Immune
+regulation of antigen processing and presentation	3.265191374	Immune
+regulation of response to cytokine stimulus	3.86427637	Immune
+viral release from host cell	0.278737308	Immune
+exit from host cell	0.278737308	Immune
+cytokinesis	0.672831625	Immune
+response to interleukin-1	4.129549753	Immune
+B cell activation	4.164823663	Immune
+mitotic cytokinesis	0.719889719	Immune
+type 2 immune response	4.307088985	Immune
+production of molecular mediator of immune response	4.212800104	Immune
+regulation of type 2 immune response	5.396782036	Immune
+Fc gamma R-mediated phagocytosis	10.961413675	Immune
+B cell receptor signaling pathway	8.687309476	Immune
+Chemokine signaling pathway	13.475198166	Immune
+Leukocyte transendothelial migration	14.659345666	Immune
+Neutrophil extracellular trap formation	9.876064395	Immune
+Natural killer cell mediated cytotoxicity	9.232188565	Immune
+C-type lectin receptor signaling pathway	11.448686772	Immune
+Human immunodeficiency virus 1 infection	10.7641598	Immune
+Th17 cell differentiation	9.787729677	Immune
+T cell receptor signaling pathway	15.224929935	Immune
+Th1 and Th2 cell differentiation	9.785717426	Immune
+Hematopoietic cell lineage	3.074302926	Immune
+positive regulation of cytokine production	5.746818094	inflam
+cytokine-mediated signaling pathway	8.764634259	inflam
+cytokine production involved in immune response	11.693781782	inflam
+regulation of cytokine production involved in immune response	11.237988895	inflam
+production of molecular mediator involved in inflammatory response	18.862693984	inflam
+neuroinflammatory response	19.742363918	inflam
+inflammatory response to antigenic stimulus	21.436012058	inflam
+leukocyte activation involved in inflammatory response	23.61517307	inflam
+negative regulation of MAPK cascade	7.707841941	inflam
+regulation of response to cytokine stimulus	8.609255755	inflam
+cytokinesis	0.9552459	inflam
+acute inflammatory response	4.591290583	inflam
+mitotic cytokinesis	1.40971788	inflam
+inflammatory cell apoptotic process	13.531991962	inflam
+Chemokine signaling pathway	22.938180336	inflam
+MAPK signaling pathway	6.674239525	inflam
+TNF signaling pathway	20.034606327	inflam
+Toll-like receptor signaling pathway	22.324483016	inflam
+regulation of mitochondrial membrane permeability	3.125820051	mitochon
+apoptotic mitochondrial changes	6.069107865	mitochon
+autophagy of mitochondrion	0.425682325	mitochon
+regulation of release of cytochrome c from mitochondria	10.394977588	mitochon
+NADPH regeneration	1.349552943	mitochon
+mitochondrial membrane organization	1.475914432	mitochon
+regulation of mitochondrion organization	6.20473731	mitochon
+smooth muscle cell migration	4.539915243	muscle
+positive regulation of smooth muscle cell proliferation	19.500195684	muscle
+striated muscle cell differentiation	0.270427437	muscle
+regulation of smooth muscle cell migration	6.485150406	muscle
+muscle cell proliferation	16.919724281	muscle
+neuron death	5.045896056	neuron
+regulation of neuron death	4.592396167	neuron
+regulation of axonogenesis	0.42642729	neuron
+amyloid-beta clearance	10.181404604	neuron
+response to amyloid-beta	19.839282829	neuron
+neuron apoptotic process	6.986549233	neuron
+response to nerve growth factor	0.88456211	neuron
+cellular response to nerve growth factor stimulus	1.236483778	neuron
+neural precursor cell proliferation	4.076922782	neuron
+neuron projection organization	7.809784061	neuron
+positive regulation of neuron apoptotic process	21.306186545	neuron
+regulation of neural precursor cell proliferation	8.878078948	neuron
+astrocyte development	10.703876482	neuron
+response to molecule of bacterial origin	10.973910743	pathogens
+response to virus	1.28108917	pathogens
+viral release from host cell	0.606758081	pathogens
+defense response to virus	0.974352294	pathogens
+Pathogenic Escherichia coli infection	14.348119805	pathogens
+Epithelial cell signaling in Helicobacter pylori infection	9.14391276	pathogens
+Salmonella infection	12.68218694	pathogens
+Kaposi sarcoma-associated herpesvirus infection	15.464096851	pathogens
+Yersinia infection	22.569441311	pathogens
+Human cytomegalovirus infection	16.355655022	pathogens
+Bacterial invasion of epithelial cells	14.300193623	pathogens
+Vibrio cholerae infection	0.70822487	pathogens
+Human immunodeficiency virus 1 infection	17.826695207	pathogens
+Human papillomavirus infection	4.760625003	pathogens
+Epstein-Barr virus infection	16.412431701	pathogens
+Human T-cell leukemia virus 1 infection	14.349289798	pathogens
+Viral carcinogenesis	19.05811791	pathogens
+positive regulation of reactive oxygen species metabolic process	24.062827138	stress
+response to reactive oxygen species	6.335210122	stress

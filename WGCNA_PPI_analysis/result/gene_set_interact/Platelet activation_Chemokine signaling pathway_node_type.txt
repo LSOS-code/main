@@ -1,0 +1,57 @@
+node	type
+ACTB	Platelet activation
+MAPK14	Platelet activation
+VASP	Platelet activation
+FCGR2A	Platelet activation
+TLN1	Platelet activation
+SYK	Platelet activation
+P2RX1	Platelet activation
+APBB1IP	Platelet activation
+TBXAS1	Platelet activation
+FERMT3	Platelet activation
+SNAP23	Platelet activation
+PRKG2	Platelet activation
+MAPK13	Platelet activation
+CDC42	Chemokine signaling pathway
+STAT3	Chemokine signaling pathway
+NFKBIA	Chemokine signaling pathway
+RAC2	Chemokine signaling pathway
+RAF1	Chemokine signaling pathway
+PXN	Chemokine signaling pathway
+PAK1	Chemokine signaling pathway
+NCF1	Chemokine signaling pathway
+CCR2	Chemokine signaling pathway
+STAT5B	Chemokine signaling pathway
+CXCR2	Chemokine signaling pathway
+GSK3B	Chemokine signaling pathway
+RAC1	Chemokine signaling pathway
+VAV1	Chemokine signaling pathway
+CCL5	Chemokine signaling pathway
+HCK	Chemokine signaling pathway
+FOXO3	Chemokine signaling pathway
+PRKCD	Chemokine signaling pathway
+GRB2	Chemokine signaling pathway
+WAS	Chemokine signaling pathway
+PREX1	Chemokine signaling pathway
+GNB1	Chemokine signaling pathway
+ARRB2	Chemokine signaling pathway
+FGR	Chemokine signaling pathway
+CXCR1	Chemokine signaling pathway
+CRK	Chemokine signaling pathway
+SOS2	Chemokine signaling pathway
+GRK6	Chemokine signaling pathway
+GNB2	Chemokine signaling pathway
+GNB4	Chemokine signaling pathway
+GNG11	Chemokine signaling pathway
+GSK3A	Chemokine signaling pathway
+JAK3	Chemokine signaling pathway
+GNG5	Chemokine signaling pathway
+MAPK3	common_gene
+GNAQ	common_gene
+GNAI2	common_gene
+PIK3CD	common_gene
+LYN	common_gene
+RHOA	common_gene
+GNAI3	common_gene
+PRKACA	common_gene
+PLCG2	common_gene

@@ -1,0 +1,39 @@
+node	type
+MAPK3	Toll-like receptor signaling pathway
+MAPK14	Toll-like receptor signaling pathway
+IFNAR1	Toll-like receptor signaling pathway
+FADD	Toll-like receptor signaling pathway
+TLR8	Toll-like receptor signaling pathway
+RAC1	Toll-like receptor signaling pathway
+PIK3CD	Toll-like receptor signaling pathway
+TLR6	Toll-like receptor signaling pathway
+TLR1	Toll-like receptor signaling pathway
+TLR9	Toll-like receptor signaling pathway
+CCL5	Toll-like receptor signaling pathway
+SPP1	Toll-like receptor signaling pathway
+MAP2K4	Toll-like receptor signaling pathway
+MAPK13	Toll-like receptor signaling pathway
+TOLLIP	Toll-like receptor signaling pathway
+IFNAR2	Toll-like receptor signaling pathway
+BCL2L1	NF-kappa B signaling pathway
+TNFRSF1A	NF-kappa B signaling pathway
+ICAM1	NF-kappa B signaling pathway
+BCL2A1	NF-kappa B signaling pathway
+CFLAR	NF-kappa B signaling pathway
+PLAU	NF-kappa B signaling pathway
+IL1R1	NF-kappa B signaling pathway
+NFKB2	NF-kappa B signaling pathway
+SYK	NF-kappa B signaling pathway
+LYN	NF-kappa B signaling pathway
+PTGS2	NF-kappa B signaling pathway
+BCL10	NF-kappa B signaling pathway
+LTBR	NF-kappa B signaling pathway
+TNFSF14	NF-kappa B signaling pathway
+PLCG2	NF-kappa B signaling pathway
+TRIM25	NF-kappa B signaling pathway
+TNFRSF11A	NF-kappa B signaling pathway
+TLR4	common_gene
+NFKBIA	common_gene
+MYD88	common_gene
+CD14	common_gene
+TICAM2	common_gene

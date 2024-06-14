@@ -1,0 +1,62 @@
+node	type
+MAPK3	Osteoclast differentiation
+TGFB1	Osteoclast differentiation
+SPI1	Osteoclast differentiation
+MAPK14	Osteoclast differentiation
+CYBA	Osteoclast differentiation
+IFNAR1	Osteoclast differentiation
+FCGR2A	Osteoclast differentiation
+NCF1	Osteoclast differentiation
+SOCS3	Osteoclast differentiation
+RAC1	Osteoclast differentiation
+PIK3CD	Osteoclast differentiation
+NCF4	Osteoclast differentiation
+FCGR3B	Osteoclast differentiation
+NCF2	Osteoclast differentiation
+TGFBR2	Osteoclast differentiation
+SQSTM1	Osteoclast differentiation
+GRB2	Osteoclast differentiation
+TYROBP	Osteoclast differentiation
+LILRB2	Osteoclast differentiation
+PPP3R1	Osteoclast differentiation
+PPP3CA	Osteoclast differentiation
+FCGR1A	Osteoclast differentiation
+SIRPA	Osteoclast differentiation
+LILRA1	Osteoclast differentiation
+JUND	Osteoclast differentiation
+GAB2	Osteoclast differentiation
+SIRPB1	Osteoclast differentiation
+MAPK13	Osteoclast differentiation
+JUNB	Osteoclast differentiation
+LILRB4	Osteoclast differentiation
+IFNGR1	Osteoclast differentiation
+OSCAR	Osteoclast differentiation
+LILRB3	Osteoclast differentiation
+LILRA2	Osteoclast differentiation
+LILRA6	Osteoclast differentiation
+LILRB5	Osteoclast differentiation
+FOSL2	Osteoclast differentiation
+IFNGR2	Osteoclast differentiation
+IFNAR2	Osteoclast differentiation
+TLR4	NF-kappa B signaling pathway
+BCL2L1	NF-kappa B signaling pathway
+ICAM1	NF-kappa B signaling pathway
+BCL2A1	NF-kappa B signaling pathway
+CFLAR	NF-kappa B signaling pathway
+PLAU	NF-kappa B signaling pathway
+LYN	NF-kappa B signaling pathway
+MYD88	NF-kappa B signaling pathway
+PTGS2	NF-kappa B signaling pathway
+CD14	NF-kappa B signaling pathway
+BCL10	NF-kappa B signaling pathway
+LTBR	NF-kappa B signaling pathway
+TNFSF14	NF-kappa B signaling pathway
+TRIM25	NF-kappa B signaling pathway
+TICAM2	NF-kappa B signaling pathway
+TNFRSF1A	common_gene
+NFKBIA	common_gene
+IL1R1	common_gene
+NFKB2	common_gene
+SYK	common_gene
+PLCG2	common_gene
+TNFRSF11A	common_gene

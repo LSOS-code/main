@@ -1,0 +1,72 @@
+node	type
+IGF1R	MAPK signaling pathway
+CDC42	MAPK signaling pathway
+TNFRSF1A	MAPK signaling pathway
+NGFR	MAPK signaling pathway
+TGFB1	MAPK signaling pathway
+RAC2	MAPK signaling pathway
+RAF1	MAPK signaling pathway
+PAK1	MAPK signaling pathway
+RAC1	MAPK signaling pathway
+HSPA1B	MAPK signaling pathway
+IL1R1	MAPK signaling pathway
+MAP3K5	MAPK signaling pathway
+TGFBR2	MAPK signaling pathway
+NFKB2	MAPK signaling pathway
+RPS6KA1	MAPK signaling pathway
+HSPA1A	MAPK signaling pathway
+DDIT3	MAPK signaling pathway
+MYD88	MAPK signaling pathway
+GRB2	MAPK signaling pathway
+CD14	MAPK signaling pathway
+ARRB2	MAPK signaling pathway
+MAPKAPK2	MAPK signaling pathway
+PPP3R1	MAPK signaling pathway
+PPP3CA	MAPK signaling pathway
+CRK	MAPK signaling pathway
+MAPKAPK3	MAPK signaling pathway
+PAK2	MAPK signaling pathway
+MAP3K11	MAPK signaling pathway
+JUND	MAPK signaling pathway
+SOS2	MAPK signaling pathway
+MAP2K4	MAPK signaling pathway
+CACNA1E	MAPK signaling pathway
+EFNA5	MAPK signaling pathway
+HSPA6	MAPK signaling pathway
+DUSP3	MAPK signaling pathway
+RASGRP4	MAPK signaling pathway
+TGFA	MAPK signaling pathway
+EFNA1	MAPK signaling pathway
+MAP3K3	MAPK signaling pathway
+MAP3K2	MAPK signaling pathway
+MAP3K6	MAPK signaling pathway
+MAP4K4	MAPK signaling pathway
+DUSP6	MAPK signaling pathway
+PDGFD	MAPK signaling pathway
+IL1RAP	MAPK signaling pathway
+STK3	MAPK signaling pathway
+RAPGEF2	MAPK signaling pathway
+MKNK2	MAPK signaling pathway
+MKNK1	MAPK signaling pathway
+ACTB	Platelet activation
+VASP	Platelet activation
+FCGR2A	Platelet activation
+GNAQ	Platelet activation
+GNAI2	Platelet activation
+TLN1	Platelet activation
+PIK3CD	Platelet activation
+SYK	Platelet activation
+LYN	Platelet activation
+RHOA	Platelet activation
+P2RX1	Platelet activation
+APBB1IP	Platelet activation
+TBXAS1	Platelet activation
+GNAI3	Platelet activation
+FERMT3	Platelet activation
+SNAP23	Platelet activation
+PRKG2	Platelet activation
+PLCG2	Platelet activation
+MAPK3	common_gene
+MAPK14	common_gene
+PRKACA	common_gene
+MAPK13	common_gene

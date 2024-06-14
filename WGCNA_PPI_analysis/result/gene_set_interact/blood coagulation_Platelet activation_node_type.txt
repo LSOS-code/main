@@ -1,0 +1,50 @@
+node	type
+ABAT	blood coagulation
+TLR4	blood coagulation
+ANXA5	blood coagulation
+CD36	blood coagulation
+FUNDC2	blood coagulation
+PLAUR	blood coagulation
+SERPINA1	blood coagulation
+VAV1	blood coagulation
+PLAU	blood coagulation
+NFE2L2	blood coagulation
+PRKCD	blood coagulation
+WAS	blood coagulation
+ADORA2A	blood coagulation
+ENTPD1	blood coagulation
+DGKG	blood coagulation
+CEACAM1	blood coagulation
+CD59	blood coagulation
+PTPN6	blood coagulation
+SH2B3	blood coagulation
+CLIC1	blood coagulation
+F7	blood coagulation
+MERTK	blood coagulation
+THBD	blood coagulation
+F5	blood coagulation
+F11R	blood coagulation
+F12	blood coagulation
+F2RL1	blood coagulation
+MAPK3	Platelet activation
+VASP	Platelet activation
+FCGR2A	Platelet activation
+GNAI2	Platelet activation
+PIK3CD	Platelet activation
+RHOA	Platelet activation
+APBB1IP	Platelet activation
+TBXAS1	Platelet activation
+GNAI3	Platelet activation
+SNAP23	Platelet activation
+PRKACA	Platelet activation
+PRKG2	Platelet activation
+MAPK13	Platelet activation
+ACTB	common_gene
+MAPK14	common_gene
+GNAQ	common_gene
+TLN1	common_gene
+SYK	common_gene
+LYN	common_gene
+P2RX1	common_gene
+FERMT3	common_gene
+PLCG2	common_gene
