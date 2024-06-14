@@ -1,0 +1,7 @@
+trend	number	T1_to_T2	T2_to_T3
+up_stable	65	up	stable
+up_down	1139	up	down
+stable_down	448	stable	down
+stable_up	234	stable	up
+down_up	144	down	up
+down_stable	50	down	stable
