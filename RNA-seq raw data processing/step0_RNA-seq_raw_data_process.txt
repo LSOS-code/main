@@ -1,0 +1,116 @@
+##### description: The procedure of RNA-seq rawdata processing and obtaining gene expression data matrixes
+
+
+##### 01Start: Quality assessment for raw data (in Linux) #####
+cd Data/RNA-seq/rawdata/
+fastqc -o Data/RNA-seq/qc_results/ -t 10 *R1.fq.gz *R2.fq.gz
+multiqc Data/RNA-seq/qc_results/ -o Data/RNA-seq/qc_results/multiqc_report/ -n multiqc_report
+##### 01End: Quality assessment for raw data (in Linux) #####
+
+
+##### 02Start: Trimming the sequence reads to get clean data #####
+cd Data/RNA-seq/rawdata/
+ls|grep R1.fq.gz>gz1
+ls|grep R2.fq.gz>gz2
+paste gz1 gz2>config
+cat config
+touch trim.sh
+vim trim.sh
+sh trim.sh
+
+#script in trim.sh
+dir=Data/RNA-seq/clean_data/
+cat config |while read id
+do
+      arr=${id}
+      fq1=${arr[0]}
+      fq2=${arr[1]}
+      nohup trim_galore --output_dir $dir --paired --phred33 --illumina --gzip $fq1 $fq2 &
+done
+#script end
+
+##### 02End: Trimming the sequence reads to get clean data (in Linux) #####
+
+
+##### 03Start: Quality assessment for clean data (in Linux) #####
+cd Data/RNA-seq/clean_data
+fastqc -o Data/RNA-seq/qc_results/ -t 10 *R1.fq.gz *R2.fq.gz
+multiqc Data/RNA-seq/re_qc_results/ -o Data/RNA-seq/re_qc_results/multiqc_report/ -n multiqc_report
+##### 03End: Quality assessment for clean data (in Linux) #####
+
+
+##### 04Start: Data alignment (in Linux) #####
+
+#Building STAR indices
+STAR --runMode genomeGenerate --genomeDir Data/RNA-seq/reference_genome/index_dir \
+   --genomeFastaFiles Data/RNA-seq/reference_genome/Homo_sapiens.GRCh38.dna.primary_assembly.fa --runThreadN 30 \
+   --sjdbGTFfile Data/RNA-seq/reference_genome/Homo_sapiens.GRCh38.107.gtf --sjdbOverhang 149
+
+#Alignment
+cd Data/RNA-seq/aligned_data
+touch align.sh
+vim align.sh
+sh align.sh
+
+#script in align.sh
+cd Data/RNA-seq/RNA-seq/clean_data/
+cat Data/RNA-seq/RNA-seq/aligned_data/manifest.txt |while read id
+do
+      arr=${id}
+      fq1=${arr[0]}
+      fq2=${arr[1]}
+      nohup STAR --runMode alignReads --genomeDir Data/RNA-seq/RNA-seq/reference_genome/index_dir --readFilesCommand zcat --runThreadN 40 --quantMode TranscriptomeSAM GeneCounts --genomeLoad LoadAndRemove --outSAMtype BAM Unsorted --readFilesIn $fq1 $fq2 --outFileNamePrefix Data/RNA-seq/RNA-seq/aligned_data/$fq1
+done
+#script end
+##### 04End: Data alignment (in Linux) #####
+
+
+##### 05Start: Gene expression quantification (in Linux) #####
+
+#Building RSEM indices
+cd Data/RNA-seq/RNA-seq/reference_genome/
+rsem-prepare-reference --gtf Homo_sapiens.GRCh38.107.gtf --star Homo_sapiens.GRCh38.dna.primary_assembly.fa RSEM_index/human_ensembl -p 40
+
+#Quantification
+cd Data/RNA-seq/exp_matrix/
+touch rsem.sh
+vim rsem.sh
+sh rsem.sh
+
+#script in rsem.sh
+cat manifest_rsem.txt |while read id
+do
+      bam1=${id}
+	  arr=(${bam1//_/ })
+      nohup rsem-calculate-expression --bam --paired-end -no-bam-output -p 40 Data/RNA-seq/aligned_data/$bam1 Data/RNA-seq/reference_genome/RSEM_index/human_ensembl ${arr[0]}
+done
+#script end
+##### 05Start: Gene expression quantification (in Linux) #####
+
+
+##### 06Start: Integration into the expression matrix (in R software) #####
+result_dir <- "Data/RNA-seq/exp_matrix/"
+gene_exp_files <- dir(result_dir)
+gene_exp_files <- gene_exp_files[grep("genes.results",gene_exp_files)]
+gene_exp_files
+length(gene_exp_files)
+
+setwd(result_dir)
+count_data <- c()
+TPM_data <- c()
+FPKM_data <- c()
+for (file_i in gene_exp_files){
+  sample_exp_data <- read.table(paste0(result_dir, file_i), header=T, fill=T)
+  print(dim(sample_exp_data))
+  count_data <- cbind(count_data, sample_exp_data$expected_count)
+  TPM_data <- cbind(TPM_data, sample_exp_data$TPM)
+  FPKM_data <- cbind(FPKM_data, sample_exp_data$FPKM)
+}
+
+dim(count_data)
+colnames(count_data) <- colnames(TPM_data) <- colnames(FPKM_data) <- unlist(strsplit(gene_exp_files,".R1.genes.results"))
+rownames(count_data) <- rownames(TPM_data) <- rownames(FPKM_data) <- sample_exp_data$gene_id
+write.table(count_data, file="count_data.txt", sep="\t", quote=F)
+write.table(TPM_data, file="TPM_data.txt", sep="\t", quote=F)
+write.table(FPKM_data, file="FPKM_data.txt", sep="\t", quote=F)
+##### 06End: Integration into the expression matrix (in R software) #####
