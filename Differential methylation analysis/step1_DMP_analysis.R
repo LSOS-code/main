@@ -1,4 +1,5 @@
 ##### description: Differential methylation analysis for 90-day space flight (M90 / 01) and  180-day space flight (M180-1 / 02)
+#Due to file size limitations，the result of differential methylation analysis are stored on https://www.spacelifescience.cn/search/detail?id=24, which was named “Results of differential methylation analysis of DNA methylation probes” 
 
 #load packages
 library(ChAMP)
