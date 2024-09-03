@@ -30,6 +30,6 @@ Instructions for use:
 1. Download the datasets from the provided link and  save them in a folder with the same name.
 2. Install the required R packages as outlined in the installation guide.
 3. Set the directory where you saved the datasets as the working directory in R.
-4. Execute the R scripts in order. Step 1 identifies differential methylation positions (DMPs). Step 2 counts the number of DMPs and presentation of the changing trend of DMPs in T2 vs T1. Step 3 identifies differential methylation regions (DMRs).
+4. Execute the R scripts in order. Step 1 identifies differential methylation positions (DMPs). Step 2 counts the number of DMPs and presentation of the changing trend of DMPs in T2 vs T1. Step 3 identifies differential methylation regions (DMRs). Step 4 performs DMR (differentially methylated region) overlap analysis between different experiments.
 
 Note: Make sure to adjust the file paths in the script to match the location of your downloaded datasets.
