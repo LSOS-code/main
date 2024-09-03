@@ -22,7 +22,7 @@ install.packages("doParallel")
 
 
 Demo:
-Load DNA methylation data of 90-day Experiment (M90),nobatch_beta.txt and SampleSheet.csv are available for download at https://www.spacelifescience.cn/search/ (search for 90-day spaceflight_M90, DNA methylation) (saved in "90-day spaceflight_M90/DNA methylation/").  #Load DNA methylation data of 180-day Experiment (M180-1),nobatch_beta.txt and SampleSheet.csv are available for download at https://www.spacelifescience.cn/search/ (search for 90-day spaceflight_M90, DNA methylation) (saved in "180-day spaceflight_M180-1/DNA methylation/").  The expected results can be found in https://www.spacelifescience.cn/search/detail?id=24 (Results of differential methylation analysis of DNA methylation probes) and in the result/ folder . The estimated time for this task is about 20 minutes.
+Load DNA methylation data of 90-day Experiment (M90),nobatch_beta.txt and SampleSheet.csv are available for download at https://www.spacelifescience.cn/search/ (search for 90-day spaceflight_M90, DNA methylation) (saved in "90-day spaceflight_M90/DNA methylation/").  #Load DNA methylation data of 180-day Experiment (M180-1),nobatch_beta.txt and SampleSheet.csv are available for download at https://www.spacelifescience.cn/search/ (search for 180-day spaceflight_M180-1, DNA methylation) (saved in "180-day spaceflight_M180-1/DNA methylation/").  The expected results can be found in https://www.spacelifescience.cn/search/detail?id=24 (Results of differential methylation analysis of DNA methylation probes) and in the result/ folder . The estimated time for this task is about 20 minutes.
 
 
 
