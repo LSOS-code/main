@@ -11,7 +11,7 @@ R packages:
 * Rtsne_0.16
 * ggplot2_3.5.0
 * ggpubr_0.6.0
-
+* sva_3.46.0
 
 Installation guide:
 #install fastqc
