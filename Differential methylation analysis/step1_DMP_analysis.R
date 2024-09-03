@@ -87,7 +87,7 @@ table(df_DMP_01_T1_to_T3$change)
 
 ##### 02Start: M180-1 differential methylation analysis #####
 
-#Load DNA methylation data of 180-day Experiment (M180-1),nobatch_beta.txt and SampleSheet.csv are available for download at https://www.spacelifescience.cn/search/ (search for 90-day spaceflight_M90, DNA methylation)
+#Load DNA methylation data of 180-day Experiment (M180-1),nobatch_beta.txt and SampleSheet.csv are available for download at https://www.spacelifescience.cn/search/ (search for 180-day spaceflight_M180-1, DNA methylation)
 myCombat_02 <- read.table("180-day spaceflight_M180-1/DNA methylation/nobatch_beta.txt", header=T, row.names=1, as.is=T, sep="\t")
 SampleSheet_02 <- read.csv("180-day spaceflight_M180-1/DNA methylation/SampleSheet.csv")
 sum(colnames(myCombat_02)==SampleSheet_02$Sample_Name)
